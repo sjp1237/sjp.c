@@ -1,0 +1,12 @@
+﻿生成启动时间为 2021/3/7 15:01:09。
+     1>项目“C:\寒假班学习代码\初始c语言\sjp.3.6\sjp.3.6\sjp.3.6.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\360Downloads\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sjp.3.6.c
+         sjp.3.6.c
+     1>c:\寒假班学习代码\初始c语言\sjp.3.6\sjp.3.6\sjp.3.6.c(62): warning C4013: “strlen”未定义；假设外部返回 int
+     1>c:\寒假班学习代码\初始c语言\sjp.3.6\sjp.3.6\sjp.3.6.c(76): error C2143: 语法错误 : 缺少“;”(在“return”的前面)
+     1>已完成生成项目“C:\寒假班学习代码\初始c语言\sjp.3.6\sjp.3.6\sjp.3.6.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.93
