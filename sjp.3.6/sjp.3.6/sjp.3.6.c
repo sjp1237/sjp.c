@@ -42,10 +42,10 @@ AABCD右旋一个字符得到DAABC*/
 //思路：先把整个句子进行倒叙 然后在倒叙每个单词
 //.gnijieb ekil i
 //beijing. like i
-void swap(char str[],int sz)
+void swap(char str[],char* sz)
 {
 	char* left = str;
-	char* right = str + sz - 1;
+	char* right = sz;
 	while (left < right)
 	{
 		char mid = *left;
@@ -60,23 +60,25 @@ int main()
 	char str[100] = { 0 };
 	gets(str);
 	int sz=strlen(str);
-	swap(str,sz);
-	char* i = str;
-	char* j = str;
-	while ((*i) != ' ')
+	//strlen求出来的值包括空格
+	swap(str,str+sz-1);
+	//将首元素的地址和末地址传进去
+	//hij efg abc
+	//分别创建单词的首元素地址和末元素地址
+	char* start = str;
+	char* end = str;
+	while (*start != '\0')
 	{
-		i++;
+		end = start;
+		while ((*end) != ' '&&(*end)!='\0')
+		{
+			end++;
+		}
+		swap(start, end - 1);
+		//当传到空格时，前面的一个元素为末元素
+		start = end +1;
+		//空格的下一个元素为下一个单词的首元素地址
 	}
-	if (*i = ' ')
-	{
-		//将空格改为\0
-		*i = '\0';
-	}
-	sz = strlen(j);
-	swap(j, sz);
-	*i = ' ';
-
-	
-
+	puts(str);
 	return 0;
 }
