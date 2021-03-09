@@ -1,0 +1,19 @@
+﻿生成启动时间为 2021/3/9 21:12:12。
+     1>项目“C:\寒假班学习代码\初始c语言\3.8\3.8\3.8.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\360Downloads\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sjp.3.8.c
+         sjp.3.8.c
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(175): warning C4013: “calloc”未定义；假设外部返回 int
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(175): warning C4047: “初始化”:“int *”与“int”的间接级别不同
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(178): error C2065: “errno”: 未声明的标识符
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(183): warning C4013: “fot”未定义；假设外部返回 int
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(183): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(183): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(183): error C2059: 语法错误:“)”
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(184): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>c:\寒假班学习代码\初始c语言\3.8\3.8\sjp.3.8.c(187): warning C4013: “free”未定义；假设外部返回 int
+     1>已完成生成项目“C:\寒假班学习代码\初始c语言\3.8\3.8\3.8.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.14
