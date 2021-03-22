@@ -1,6 +1,14 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include"game.h"
 //∆Â≈Ã≥ı ºªØ
+
+
+
+/*
+	hanshude gongneng 
+	hanshude chuanrucanshu 
+	\fanhuizhi
+*/
 void initBoard(char board[ROW][COL], int row, int col)
 {
 	int i = 0;
